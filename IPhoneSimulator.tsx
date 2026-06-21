@@ -975,15 +975,6 @@ export default function IPhoneSimulator({ currentScreen, onScreenChange }: IPhon
           </div>
         )}
 
-      {/* Real High-Fidelity iPhone Device Frame Wrapper */}
-      <div className="relative w-[385px] h-[820px] bg-slate-950 rounded-[55px] p-3.5 shadow-2xl border-4 border-slate-800 ring-12 ring-slate-900/40 overflow-hidden flex flex-col">
-
-
-        {/* Device Screen Frame */}
-        <div className="w-full h-full bg-[#f8f9fa] rounded-[42px] overflow-hidden relative flex flex-col select-none text-slate-900 font-sans shadow-inner">
-          
-
-
           {/* iOS Push Notification Bubble Alert overlay */}
           {showPushNotification && (
             <div className="absolute top-11 left-4 right-4 z-50 bg-white/95 backdrop-blur-md p-3.5 rounded-2xl shadow-xl border border-slate-100/80 flex gap-2.5 items-start transition-all animate-bounce">
@@ -4334,8 +4325,6 @@ export default function IPhoneSimulator({ currentScreen, onScreenChange }: IPhon
           )}
 
         </div>
-      </div>
 
-    </div>
   );
 }
